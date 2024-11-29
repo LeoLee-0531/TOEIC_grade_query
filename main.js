@@ -37,7 +37,7 @@ class ScoreQuerySystem {
   }
 
   async queryScore(studentId) {
-    const response = await fetch(`${this.apiUrl}/api/query`, {
+    const response = await fetch(`${this.apiUrl}api/query`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
